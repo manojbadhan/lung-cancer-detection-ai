@@ -15,7 +15,7 @@ if not os.path.exists(model_path):
     gdown.download(url, model_path, quiet=False)
 
 # Load trained model
-model = load_model(model_path)
+model = load_model(model_path, compile=False)
 
 classes = ["Normal", "Benign", "Malignant"]
 
@@ -49,3 +49,4 @@ if uploaded_file is not None:
         st.warning("Benign Tumor Detected")
     else:
         st.success("Normal Lung")
+
