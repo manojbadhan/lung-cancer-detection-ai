@@ -1,7 +1,7 @@
 import streamlit as st
 import cv2
 import numpy as np
-from keras.models import load_model
+from tensorflow.keras.models import load_model
 import gdown
 import os
 
@@ -49,5 +49,6 @@ if uploaded_file is not None:
         st.warning("Benign Tumor Detected")
     else:
         st.success("Normal Lung")
+
 
 
