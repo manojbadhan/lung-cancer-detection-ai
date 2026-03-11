@@ -74,6 +74,7 @@ python train_model.py
 This will generate the trained model file:
 
 lung_cancer_model.h5
+https://drive.google.com/file/d/1jFzKMIzz82r_AZ-T-eJOVxI2b4nQIVbJ/view?usp=drive_link
 
 ---
 
@@ -133,3 +134,4 @@ This project is developed for educational and research purposes only and should 
 
 Manoj Badhan
 BTech AI & Robotics Engineering
+
