@@ -3,4 +3,5 @@ numpy
 opencv-python-headless
 streamlit
 scikit-learn
+gdown
 
